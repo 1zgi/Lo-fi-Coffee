@@ -1,0 +1,77 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MusicManager : MonoBehaviour
+{
+    private AudioSource _audiosource;
+     public AudioSource _audio;
+    public AudioClip[] songs;
+    public AudioClip earnMoneySound;
+    public float volume = 0.3f;
+    public float volume2;//Earned Money Sound
+    [SerializeField] private float _songsPlayed;
+    [SerializeField] private bool[] _beenPlayed;
+    void Start()
+    {
+        _audiosource = GetComponent<AudioSource>();
+        _beenPlayed = new bool[songs.Length];
+        if (!_audiosource.isPlaying)
+        {
+            ChangeSong(Random.Range(0, songs.Length));
+        }
+       
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        _audiosource.volume = volume;
+        _audiosource.volume = volume2;
+        // _beenPlayed = new bool[songs.Length];
+
+        if (!_audiosource.isPlaying ||(Input.GetKeyDown(KeyCode.Space)))
+		{
+            ChangeSong(Random.Range(0, songs.Length));
+		}
+
+        if(_songsPlayed==songs.Length)
+		{
+            _songsPlayed = 0;
+            for(int i=0;i<songs.Length;i++)
+			{
+                if (i == songs.Length)
+                    break;
+                else
+                    _beenPlayed[i] = false;
+			}
+
+           
+		}
+    }
+
+    public void ChangeSong(int songPicked)
+	{
+      
+        if (!_beenPlayed[songPicked])
+		{
+            _beenPlayed[songPicked] = true;
+            _audiosource.clip = songs[songPicked];  
+            _audiosource.Play();
+        }
+        else
+        {
+           
+             _audiosource.Stop();
+        }
+
+	}
+
+    public void playEarnMoneySound()
+	{
+      
+      _audio.clip = earnMoneySound;
+      _audio.Play();
+	}
+
+}

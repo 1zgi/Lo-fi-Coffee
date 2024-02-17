@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1896488601797616924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1896488601797616898}
+  - component: {fileID: 1896488601797616925}
+  m_Layer: 0
+  m_Name: CustomerOrderSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1896488601797616898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896488601797616924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.959707, y: -2.2977536, z: -13.811923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1896488601797616925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896488601797616924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b34a0edfa453484da088a05e39933f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customerAI: {fileID: 4597425655212744838, guid: c3921817f6a81664a8e1834ce6b9ec38, type: 3}
+  filterMilkMaterial: {fileID: 2100000, guid: 410ea7cdf0a1ae047846678590a3e431, type: 2}
+  filterMaterial: {fileID: 2100000, guid: 61872b9a6ec9a7f44b2a73f429f0b184, type: 2}
+  espressoMaterial: {fileID: 2100000, guid: c31bac426753d2141aa28773298d8774, type: 2}
+  latteMaterial: {fileID: 2100000, guid: 5df83193bf7b34a4fbc70cdf7bcff1f9, type: 2}
+  americanoMaterial: {fileID: 2100000, guid: 0fd6041f0a7a5c14c84a1c5a49136246, type: 2}
+  iceLatteMaterial: {fileID: 2100000, guid: b03a833ac695771459587beddb135c7f, type: 2}
+  iceAmericanoMaterial: {fileID: 2100000, guid: 553f0dcc2d16fc74aae08e5d8b633beb, type: 2}
+  donutMaterial: {fileID: 2100000, guid: 613c5a1150d2ad54e8043dc26ae308de, type: 2}
+  cupcakeMaterial: {fileID: 2100000, guid: 4218d8309c799e5459b2a3a9e3568234, type: 2}
+  carrotcakeMaterial: {fileID: 2100000, guid: e42a8b7adea4f364c95d12f056845c34, type: 2}
+  originalMaterial: {fileID: 2100000, guid: 0badcbf64fae29d43a5880173c3708a7, type: 2}
+  coffeeArr:
+  - FilterMilk
+  - Filter
+  - Espresso
+  - Latte
+  - IceLatte
+  - Americano
+  - IceAmericano
+  publichowMuchRandomCoff: 0
+  DesertArr:
+  - Donut
+  - CupCake
+  - CarrotCake
+  publichowMuchRandomDES: 0
+  FirstCoffeOrder_Sign: {fileID: 0}
+  SecondCoffeOrder_Sign: {fileID: 0}
+  FirstDesertOrder_Sign: {fileID: 0}
+  SecondDesertOrder_Sign: {fileID: 0}
+  randomCoff: 0300000006000000
+  randomDES: 0100000001000000

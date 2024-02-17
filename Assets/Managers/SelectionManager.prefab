@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5904792393451690179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5904792393451690178}
+  - component: {fileID: 5904792393451690237}
+  m_Layer: 0
+  m_Name: SelectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5904792393451690178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904792393451690179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5904792393451690237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904792393451690179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2479c4c54db6f754aa5ecd6bc3af614c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightMaterial: {fileID: 2100000, guid: 9d04761d95b4a714490953db84bd54c4, type: 2}
+  originalMaterial: {fileID: 0}
+  Filter_Machine: {fileID: 1954794643880030759, guid: f16484824d660044c984265e7059618e, type: 3}
+  Espresso_Machine: {fileID: 1847452128917456016, guid: ce1214f24f55a204cb55eb5dc542846e, type: 3}
+  Ice_Machine: {fileID: 8613076136331883115, guid: 936ca52e1c1f68e4ca20286348f8d861, type: 3}
+  Desert_Fridge: {fileID: 6432954840827019071, guid: 28899d22e790b0647bc955895b3c2c14, type: 3}
+  Monitor: {fileID: 5290139422622417134, guid: b4e681d3e7c7dc74bbcdd839af4affb2, type: 3}
+  Recipe_Book: {fileID: 3846906944117895549, guid: b4426d72f8a28a942a57931fd1a91a75, type: 3}
+  Tray: {fileID: 4993854800040885897, guid: 9f1791f90d9eb17419b6da825a31f5b5, type: 3}
+  animator: {fileID: 0}
+  player: {fileID: 0}
+  filterMachine: {fileID: 0}
+  espressoMachine: {fileID: 0}
+  order: {fileID: 1896488601797616925, guid: 68638f4382291ac49a895aa6aab9c79b, type: 3}
+  bookui: {fileID: 0}
+  fridgeUI: {fileID: 0}
+  trayUI: {fileID: 0}
+  selectionMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  playerCamera: {fileID: 0}
+  currentHitGameObject: {fileID: 0}

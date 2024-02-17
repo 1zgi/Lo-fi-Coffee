@@ -1,0 +1,138 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System;
+using static EspressoMachine;
+
+public class MilkBoilingTimer : MonoBehaviour
+{
+    public EspressoMachine espr;
+    public float StartTime;
+    private  bool flag = false;
+    private bool i = false; // After  write  done to the text, if we clicked picther_milk_button i=false and the timer is actived again
+
+    [Header("Time Settings")]
+    public bool countDown;
+    public float currentTimeEsp;
+
+
+    [Header("Limit Settings")]
+    public bool hasLimit;
+    public float timerLimitEsp;
+
+    private bool isRunning = false;
+
+    [Header("Time")]
+    public string minute = "0";
+    public string second = "0";
+
+    [Header("Time Text")]
+    public TextMeshProUGUI timerTextEsp;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    public void TimerStart()
+    {
+
+        if (!isRunning)
+        {
+            print("Start");
+            isRunning = true;
+            currentTimeEsp = StartTime;
+
+        }
+
+
+
+    }
+
+    public void TimerStop()
+    {
+        if (isRunning)
+        {
+            print("stop");
+            isRunning = false;
+            currentTimeEsp = 0;
+            TimerReset();
+        }
+
+    }
+
+    public void TimerReset()
+    {
+        print("reset");
+        int m = Convert.ToInt16(minute);
+        int s = Convert.ToInt16(second);
+        m = 0;
+        s = 0;
+        minute = Convert.ToString(m);
+        second = Convert.ToString(s);
+        SetTimerText();
+    }
+
+    private void SetTimerText()
+    {
+        print(flag);
+      
+        if(!flag)
+		{
+            timerTextEsp.text = minute.ToString().PadLeft(2, '0') + ":" + second.ToString().PadLeft(2, '0'); // 13:44:13
+        }
+        else
+        {
+            timerTextEsp.text = "DONE";
+            i = true;
+        }
+    }
+
+    public void  check_i()
+	{
+        i = false;
+	}
+
+
+    // Update is called once per frame
+    void Update()
+    {
+
+
+        int m = Convert.ToInt16(minute);
+        int s = Convert.ToInt16(second);
+
+        if (isRunning)
+        {
+            //----EspressoTimer----
+            if(!i)
+			{
+                flag = false;
+                currentTimeEsp = countDown ? currentTimeEsp -= Time.deltaTime : currentTimeEsp += Time.deltaTime;
+
+                s = Convert.ToInt16(currentTimeEsp);
+                second = Convert.ToString(s);
+                minute = Convert.ToString(m);
+                print(currentTimeEsp);
+                if (hasLimit && ((countDown && currentTimeEsp <= timerLimitEsp || (!countDown && currentTimeEsp >= timerLimitEsp))))
+                {
+
+
+                    if (currentTimeEsp != 0)
+                    {
+                        currentTimeEsp = timerLimitEsp;
+                        espr.pitcherWith_milk_button.SetActive(true);
+                        flag = true;
+                    }
+                    TimerStop();
+                }
+                SetTimerText();
+            }
+            else
+            SetTimerText();
+        }
+    }
+}
