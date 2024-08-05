@@ -9,8 +9,9 @@ Welcome to the Coffee Shop Simulation Game repository! This project was develope
 - [Gameplay](#gameplay)
 - [Game Objects](#game-objects)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
 - [Game Play Video](#game-play-video)
+- [Installation](#installation)
+
 
 ## Overview
 This game is a simulation genre game designed to appeal to individuals of all ages. The primary goal is to prepare the desired products for customers visiting the café within a designated time frame, increasing the game score and difficulty level as orders are successfully completed.
@@ -80,6 +81,7 @@ The game features various objects designed using Blender, including:
 
 ![Plate surface](https://github.com/user-attachments/assets/3c96657a-0f69-4f89-abd8-c23ef8355cb8)
 
+## Game Play Video
 
 ## Installation
 1. Clone the repository:
