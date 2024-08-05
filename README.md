@@ -97,7 +97,7 @@ Watch the gameplay video:
    ```bash
    git clone https://github.com/your-username/coffee-shop-simulation-game.git
 2. itch.io page:
-   ```bash
+   
    https://ninjabaz.itch.io/lofi-coffee
 
 ## Report PDF File
