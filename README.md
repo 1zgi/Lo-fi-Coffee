@@ -89,7 +89,7 @@ Watch the gameplay video:
 
 <div align="center">
     <a href="https://youtu.be/yYjNX-P1tfs">
-        <img src="https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e" alt="Gameplay Video" style="width:80%;height:auto;">
+        <img src="https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e" alt="Gameplay Video" style="width:60%;height:auto;">
     </a>
 </div>
 
