@@ -82,14 +82,13 @@ The game features various objects designed using Blender, including:
 
 ![Plate surface](https://github.com/user-attachments/assets/3c96657a-0f69-4f89-abd8-c23ef8355cb8)
 
-
 ## Gameplay Video
 
 Watch the gameplay video:
 
 <div align="center">
     <a href="https://youtu.be/yYjNX-P1tfs">
-        <img src="https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e" alt="Gameplay Video" style="width:60%;height:auto;">
+        <img src="https://github.com/user-attachments/assets/18282941-8bc6-48a9-affe-16e3751d8d35" alt="Gameplay Video" style="width:60%;height:auto;">
     </a>
 </div>
 
