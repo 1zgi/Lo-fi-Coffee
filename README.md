@@ -1,4 +1,4 @@
-# Coffee Shop Simulation Game
+# Coffee Shop Simulation Game (Unity Project)
 
 Welcome to the Coffee Shop Simulation Game repository! This project was developed as part of the CENG361 course at Çankaya University. The game offers a sweet concept centered around managing a coffee shop, with a primary focus on preparing and delivering orders to customers efficiently.
 
