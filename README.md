@@ -11,6 +11,7 @@ Welcome to the Coffee Shop Simulation Game repository! This project was develope
 - [Screenshots](#screenshots)
 - [Game Play Video](#game-play-video)
 - [Installation](#installation)
+- [Report PDF File](#report-pdf-file)
 
 
 ## Overview
@@ -87,4 +88,8 @@ The game features various objects designed using Blender, including:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/coffee-shop-simulation-game.git
+
+## Report PDF File
+[GameDesignDoc_201827004.pdf](https://github.com/user-attachments/files/16493880/GameDesignDoc_201827004.pdf)
+
 
