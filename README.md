@@ -88,9 +88,7 @@ The game features various objects designed using Blender, including:
 Watch the gameplay video:
 
 <div align="center">
-    <a href="https://youtu.be/yYjNX-P1tfs">
-        <img src="https://youtu.be/yYjNX-P1tfs/0.jpg" alt="Gameplay Video" style="width:80%;height:auto;">
-    </a>
+    <iframe width="560" height="315" src="https://youtu.be/yYjNX-P1tfs" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Installation
