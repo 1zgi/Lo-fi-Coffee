@@ -82,7 +82,10 @@ The game features various objects designed using Blender, including:
 
 ![Plate surface](https://github.com/user-attachments/assets/3c96657a-0f69-4f89-abd8-c23ef8355cb8)
 
+
 ## Game Play Video
+![Game Play Video](https://youtu.be/yYjNX-P1tfs)
+
 
 ## Installation
 1. Clone the repository:
