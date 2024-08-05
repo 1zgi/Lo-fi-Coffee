@@ -55,12 +55,13 @@ The game features various objects designed using Blender, including:
 
 ## Screenshots
 ![Startup screen](https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e)
-![Main Screen](screenshots/main_screen.png)
-![Espresso Machine Interface](screenshots/espresso_machine_interface.png)
-![Filter Coffee Machine Interface](screenshots/filter_coffee_machine_interface.png)
-![Recipe Book Interface](screenshots/recipe_book_interface.png)
-![Dessert Fridge Interface](screenshots/dessert_fridge_interface.png)
-![Plate Surface](screenshots/plate_surface.png)
+![Main screen](https://github.com/user-attachments/assets/45bb2a12-ec1c-4c31-9a10-6ef5543aef6b)
+![Espresso machine interface](https://github.com/user-attachments/assets/085f48a4-61c4-4fa1-836b-2e1cdec356b8)
+![Filtre coffee machine interface](https://github.com/user-attachments/assets/d0037df2-ad98-4524-9d57-669dc6a6f81b)
+![Recipe book interface](https://github.com/user-attachments/assets/77837e9d-44d6-4d05-b6fa-35a9b51e190c)
+![Dessert fridge interface](https://github.com/user-attachments/assets/a80d09de-ac3a-4a84-9bbc-bace22af7b88)
+![Plate surface](https://github.com/user-attachments/assets/3c96657a-0f69-4f89-abd8-c23ef8355cb8)
+
 
 ## Installation
 1. Clone the repository:
