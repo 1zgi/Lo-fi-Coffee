@@ -54,7 +54,7 @@ The game features various objects designed using Blender, including:
 - Milk carton and menu board
 
 ## Screenshots
-![Startup Screen](screenshots/startup_screen.png)
+![Startup screen](https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e)
 ![Main Screen](screenshots/main_screen.png)
 ![Espresso Machine Interface](screenshots/espresso_machine_interface.png)
 ![Filter Coffee Machine Interface](screenshots/filter_coffee_machine_interface.png)
