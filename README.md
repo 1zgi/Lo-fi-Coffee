@@ -54,7 +54,7 @@ The game features various objects designed using Blender, including:
 - Milk carton and menu board
 
 ## Screenshots
-#Startup screen
+Startup screen
 ![Startup screen](https://github.com/user-attachments/assets/e282a53d-1e9d-478e-a266-5b149cc38c1e)
 
 ![Main screen](https://github.com/user-attachments/assets/45bb2a12-ec1c-4c31-9a10-6ef5543aef6b)
