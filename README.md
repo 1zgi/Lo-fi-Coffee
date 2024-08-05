@@ -96,6 +96,9 @@ Watch the gameplay video:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/coffee-shop-simulation-game.git
+2. itch.io page:
+   ```bash
+   https://ninjabaz.itch.io/lofi-coffee
 
 ## Report PDF File
 [GameDesignDoc_201827004.pdf](https://github.com/user-attachments/files/16493880/GameDesignDoc_201827004.pdf)
