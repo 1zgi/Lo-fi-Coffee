@@ -10,9 +10,7 @@ Welcome to the Coffee Shop Simulation Game repository! This project was develope
 - [Game Objects](#game-objects)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Game Play Video](#game-play-video)
 
 ## Overview
 This game is a simulation genre game designed to appeal to individuals of all ages. The primary goal is to prepare the desired products for customers visiting the café within a designated time frame, increasing the game score and difficulty level as orders are successfully completed.
