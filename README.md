@@ -9,7 +9,7 @@ Welcome to the Coffee Shop Simulation Game repository! This project was develope
 - [Gameplay](#gameplay)
 - [Game Objects](#game-objects)
 - [Screenshots](#screenshots)
-- [Game Play Video](#game-play-video)
+- [Gameplay Video](#game-play-video)
 - [Installation](#installation)
 - [Report PDF File](#report-pdf-file)
 
@@ -88,7 +88,9 @@ The game features various objects designed using Blender, including:
 Watch the gameplay video:
 
 <div align="center">
-    <iframe width="560" height="315" src="https://youtu.be/yYjNX-P1tfs" frameborder="0" allowfullscreen></iframe>
+    <a href="https://youtu.be/yYjNX-P1tfs">
+        <img src="https://youtu.be/yYjNX-P1tfs/0.jpg" alt="Gameplay Video" style="width:80%;height:auto;">
+    </a>
 </div>
 
 ## Installation
