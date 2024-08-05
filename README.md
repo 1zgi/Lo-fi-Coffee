@@ -9,7 +9,7 @@ Welcome to the Coffee Shop Simulation Game repository! This project was develope
 - [Gameplay](#gameplay)
 - [Game Objects](#game-objects)
 - [Screenshots](#screenshots)
-- [Gameplay Video](#game-play-video)
+- [Gameplay Video](#gameplay-video)
 - [Installation](#installation)
 - [Report PDF File](#report-pdf-file)
 
